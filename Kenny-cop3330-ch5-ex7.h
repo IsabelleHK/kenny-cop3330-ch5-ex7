@@ -104,10 +104,8 @@ try
 		solve2();
 	else
 		error("bad input",s);
-	keep_window_open("~");
 }
 catch (runtime_error e) {
 	cout << e.what() << '\n';
-	keep_window_open("~");
 }
 
